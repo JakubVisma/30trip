@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import { quiz2 } from './day2/quiz2';
 import Quiz from '../lib/Quiz'
-import pic1 from './day2/screenshots/01.2019.png'
 
 function Day2() {
 
@@ -19,7 +18,6 @@ function Day2() {
                 <p style={{ color: 'white' }}>Przygotowałem dla Ciebie mały quiz z naszego rozmawiania. Jesteś w stanie zgadnąć, który to rok?</p>
             </div>
             <div className = "quizz" >
-            <img src={'./day2/screenshots/01.2019.png'} alt="question" />
             <Quiz
                 quiz={quiz2}
                 shuffle
