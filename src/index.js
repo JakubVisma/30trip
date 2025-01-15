@@ -1,13 +1,22 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ProSidebarProvider } from "react-pro-sidebar";
+import { HashRouter as Router } from "react-router-dom";
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <ProSidebarProvider>
+        <App />
+      </ProSidebarProvider>
+    </Router>
   </React.StrictMode>
 );
 
