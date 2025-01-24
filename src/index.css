@@ -5,7 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: black;
+  background: #00171f;
+  --white: #ffffff;
+  --blue-charcoal: #00171f;
+  --prussian-blue: #003459;
+  --deep-cerulean: #007ea7;
+  --picton-blue: #00a8e8;
+
 }
 
 code {
@@ -24,5 +30,6 @@ h3{
 .quizz{
   display: flex;
   justify-content: space-around;
-  background: 'grey';
+  background: '--deep-cerulean';
 }
+
