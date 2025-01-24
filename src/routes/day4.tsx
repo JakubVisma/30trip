@@ -1,21 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
+import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 
 function Day4() {
+    const [puzzleSolved, setPuzzleSolved] = useState(0);
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 4</p>
+                <p>Dzien 4 - puzzle</p>
             </h1>
-            <div className="m-5 pb-15">
-                <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>
-                <p >Z tej okazji chiałbym zabrać Cię w podróż. Każdego dnia jedna kartka z kalendarza będzie się aktywować. Każda z nich to jakieś unikalne wspomnienie, wyzwanie, prezent albo gra. Jeżeli uda Ci się ukończyć wszystkie z nich, czeka Cię -tytyrytyty- Nagroda Główna!</p>
-                <p > Mam nadzieję że te podróż sprawi Ci radość, tak jak inne nasze podróże. Wszystkiego najlepszego po raz pierwszy. Kocham Cię! </p>      
-                <div className="">
-            <h4 className="mt-5" style={{color: 'white'}}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych z nich. Czy pamiętasz je wszystkie?</h4>
+            <h1 style={{ color: "white", marginLeft: "5rem" }}>Dobra mistrzu puzli, przygotuj się na wyzwanie!</h1>
 
-            </div>          
+            {puzzleSolved === 1 &&
+                (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Brawo!</h1>)
+            }
+            {puzzleSolved === 2 &&
+                (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Już prawie!</h1>)
+            }
+            {puzzleSolved === 3 &&
+                (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Twoja czwarta litera hasła to "X"!</h1>)
+            }
+
+            <div className="m-5">
+                {puzzleSolved === 0 &&
+                    <JigsawPuzzle imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day2/screenshots/15.2.png?raw=true"
+                        onSolved={() => setPuzzleSolved(1)} />}
+                {puzzleSolved === 1 &&
+                    <JigsawPuzzle imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day2/screenshots/17.2.png?raw=true"
+                        onSolved={() => setPuzzleSolved(2)} />}
+                {puzzleSolved === 2 &&
+                    <JigsawPuzzle imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day2/screenshots/21.2.png?raw=true"
+                        onSolved={() => setPuzzleSolved(3)} />}
             </div>
-
 
         </div>
     );
