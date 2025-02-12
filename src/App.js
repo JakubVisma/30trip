@@ -54,8 +54,8 @@ function App() {
         </Menu>
       </Sidebar>
       <main className="w-100" >
-        <div className="w-100 p-3" style={({ height: "100vh" }, { display: "flex" })}>
-          <h1 style={{ color: "white", marginLeft: "35%" }}>
+        <div className="w-100 p-3" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <h1 style={{ color: "white"}}>
             Podróż zwana życiem
           </h1>
         </div>
