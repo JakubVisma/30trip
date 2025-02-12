@@ -50,3 +50,9 @@ body,
     transform: rotate(360deg);
   }
 }
+
+.verticalFlex  {
+  flex: 1;
+  flex-direction: 'column';
+  align-items: 'center'
+}

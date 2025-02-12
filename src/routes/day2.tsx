@@ -17,8 +17,7 @@ function Day2() {
                 <p className="mt-5" style={{ color: 'white' }}>Rozmawiamy ze sobą już od wielu lat. Wymianiamy myśli i zdjęcia, chwile dobre, trudne, głupie. Czasem milczymy. Zmieniamy się i zmienia się też sposób w jaki za sobą rozmawiamy.</p>
                 <p style={{ color: 'white' }}>Przygotowałem dla Ciebie mały quiz z naszego rozmawiania. Jesteś w stanie zgadnąć, który to rok?</p>
                 {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers !== 1 && <h2 style={{ color: 'orange' }}> Spróbuj raz jeszcze</h2>}
-                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers === 1 && <h2 style={{ color: 'orange' }}> Piękny wynik! Twoja pierwsza litera hasła to "X"</h2>}
-                    {quizResult?.numberOfCorrectAnswers}
+                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers === 1 && <h2 style={{ color: 'orange' }}> Piękny wynik! Twoja druga litera to "X"</h2>}
                 
             </div>
             <div className = "quizz" style={{background: '#007ea7'}}>

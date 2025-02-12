@@ -29,7 +29,7 @@ function App() {
     <div id="app" style={({ height: "100"}, { display: "flex" })}>
 
 
-      <Sidebar backgroundColor="#003459" style={({ height: "100vh"})}  >
+      <Sidebar   backgroundColor="#003459" style={({ height: "100vh", position:"sticky", top:0 })}  >
         <Menu>
           <MenuItem
             style={{ textAlign: "center" }}
