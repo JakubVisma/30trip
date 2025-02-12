@@ -7,15 +7,14 @@ function Day3() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                Dzien 3 - jak w filmie.
+                Dzien 3 - Wesołe jest życie UX-a.
             </h1>
-            <div className="m-5 pb-15">
-                <p style={{ fontStyle: 'italic' }}>Mówić można z każdym – rozmawiać bardzo mało z kim</p>
-                <p style={{ fontStyle: 'italic' }}>Feliks Chwalibóg</p>
-                <p className="mt-5" style={{ color: 'white' }}>Obejrzeliśmy razem wiele filmów, w szczególności bajek. Czy pamiętasz je </p>
+            <h4 className="mt-3" style={{ color: "white", marginLeft: "5rem" }}>
+                <p>Hejho. Mam nadzieję że jesteś silna, zwarta i gotowa. Dziś będziemy testować Twoje umiejętności UXowa - a jest co testować! Ready or not, zaczynamy!</p>
+            </h4>
+            <div className="mt-3" style={{ height: '490px' }} >
+                <iframe scrolling="no" style={{ width: '100%', height: '100%' }} src="https://cantunsee.space/"></iframe>
             </div>
-
-
         </div>
     );
 }
