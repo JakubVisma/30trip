@@ -1,24 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
+import { quiz5 } from './day5/quiz5';
+import Quiz from '../lib/Quiz'
 
 function Day5() {
+    const [quizResult, setQuizResult] = useState();
+
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 5</p>
+                Dzien 5 - czy wiesz za co Cię kocham?
             </h1>
             <div className="m-5 pb-15">
-                <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>
-                <p >Z tej okazji chiałbym zabrać Cię w podróż. Każdego dnia jedna kartka z kalendarza będzie się aktywować. Każda z nich to jakieś unikalne wspomnienie, wyzwanie, prezent albo gra. Jeżeli uda Ci się ukończyć wszystkie z nich, czeka Cię -tytyrytyty- Nagroda Główna!</p>
-                <p > Mam nadzieję że te podróż sprawi Ci radość, tak jak inne nasze podróże. Wszystkiego najlepszego po raz pierwszy. Kocham Cię! </p>      
-                <div className="">
-            <h4 className="mt-5" style={{color: 'white'}}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych z nich. Czy pamiętasz je wszystkie?</h4>
-
-            </div>          
+                <p style={{ fontStyle: 'italic' }}>Kocham Cię!</p>
+                <p style={{ fontStyle: 'italic' }}>Jakub Brzosko</p>
+                <p className="mt-5" style={{ color: 'white' }}>Cześć. Wiem że musiałaś czekać długą chwilę żeby to usłyszeć. Dlatego dziś chciałem choć w małym stopniu nadrobić za te wszystkie lata.</p>
+                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers !== 10 && <h2 style={{ color: 'orange' }}> Spróbuj raz jeszcze</h2>}
+                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers === 10 && <h2 style={{ color: 'orange' }}> Za wszystkie przyszłe powody dla których będę Cie kochał dostajesz ode mnie literkę "S"</h2>}
+                
+            </div>
+            <div className = "quizz" style={{background: '#007ea7'}}>
+            <Quiz
+                quiz={quiz5}
+                shuffle
+                shuffleAnswer
+                showInstantFeedback
+                continueTillCorrect
+                onComplete={setQuizResult}
+                onQuestionSubmit={(obj) => console.log('user question results:', obj)}
+                disableSynopsis = {false}
+                allowPauseTimer
+                enableProgressBar
+                
+            />
             </div>
 
-
         </div>
-    );
+    )
 }
 
 export default Day5;
