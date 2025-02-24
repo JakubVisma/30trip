@@ -1,5 +1,5 @@
-export const quiz6 = {
-  "quizTitle": "Dzień 6",
+export const quiz7 = {
+  "quizTitle": "Dzień 7",
   "quizSynopsis": "W jakim roku wydarzyły się te rozmowy?",
   "progressBarColor": "#9de1f6", 
   "nrOfQuestions": "13",

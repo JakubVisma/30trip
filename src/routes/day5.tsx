@@ -8,7 +8,7 @@ function Day5() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                Dzien 5 - czy wiesz za co Cię kocham?
+                Dzien 5 - Czy wiesz za co Cię kocham?
             </h1>
             <div className="m-5 pb-15">
                 <p style={{ fontStyle: 'italic' }}>Kocham Cię!</p>
