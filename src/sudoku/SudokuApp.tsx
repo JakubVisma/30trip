@@ -43,8 +43,6 @@ function SudokuApp() {
       <Col>
         <NewGameControls sudokuStateManager={sudokuStateManager} />
         <Board sudokuStateManager={sudokuStateManager} />
-      </Col>
-      <Col>
         <UserInputs sudokuStateManager={sudokuStateManager} />
       </Col>
     </Wrapper>

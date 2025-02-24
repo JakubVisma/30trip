@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { quiz5 } from './day5/quiz5';
+import { quiz5 } from './day5/quiz5.js';
 import Quiz from '../lib/Quiz'
 
 function Day5() {

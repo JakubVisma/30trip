@@ -5,6 +5,7 @@ import { InputMode } from "../models.ts";
 import { mobileBreakpoint } from "../utils/styles.ts";
 
 import Button from "./Button.tsx";
+import React from "react";
 
 interface UserInputsProps {
   sudokuStateManager: SudokuStateManager;
@@ -30,6 +31,12 @@ const Wrapper = styled.div`
   align-items: center;
 `;
 
+const Col = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  gap: 0.5rem;
+`;
 const UserInputs = ({ sudokuStateManager }: UserInputsProps) => {
   const {
     addCellNote,
@@ -63,21 +70,7 @@ const UserInputs = ({ sudokuStateManager }: UserInputsProps) => {
       >
         Erase
       </UserInputButton>
-
-      {Array.from({ length: 9 }, (_, i) => i + 1).map((number) => (
-        <UserInputButton
-          key={number}
-          onClick={() => {
-            if (!selectedCell) {
-              return;
-            }
-            addCellNote(number);
-            setCellValue(number);
-          }}
-        >
-          {number}
-        </UserInputButton>
-      ))}
+    
     </Wrapper>
   );
 };
