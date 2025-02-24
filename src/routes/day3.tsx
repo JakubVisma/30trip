@@ -24,7 +24,7 @@ function Day3() {
                         onChange={(event: React.ChangeEvent<HTMLInputElement>) => { setPuzzleSolved(event.target.value) }} />
                         
                 </div>
-                {puzzleSolved.length > 3 && <p>Twoja literka na dziś to C</p>}
+                {puzzleSolved.length > 3 && <p>Twoja literka na dziś to "C"</p>}
             </div>
 
             <div className="mt-3" style={{ height: '490px' }} >

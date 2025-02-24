@@ -1,14 +1,18 @@
 1:Pierwszy krok - wspomnienia z życia
-2: 
-3:Rozmowy na messengerze
+2:Guess the Emoji Story  -Słodyczki
+3:
 4:Puzzle - puzle
-5:
+5:Why I Love You quiz gdzie wszystkie odpowiedzi są poprawne
 6:Szczęśliwi czasu nie liczą - a może liczą? - pasek do zegarka
-7:Why I Love You quiz gdzie wszystkie odpowiedzi są poprawne
+7:Rozmowy na messengerze
 8:Dzień kobiet - kalendarz
-9:
+9:Krzyżówka?
 10:spacer po parku z qr codami - bluza
-11:
-12:
-13:
+11:Wesołe jest życie UXa - Książka
+12:Życzenia - album
+13: - tshirt
 14:Grande finale zabezpieczone hasłem
+
+/////
+dateProtector
+hosting

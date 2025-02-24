@@ -1,24 +1,42 @@
-import React from "react";
+import React, {useState} from "react";
+import { quiz6 } from './day6/quiz6';
+import Quiz from '../lib/Quiz'
 
 function Day6() {
+
+    const [quizResult, setQuizResult] = useState();
+
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 6</p>
+                Dzien 6s - rozmowa.
             </h1>
             <div className="m-5 pb-15">
-                <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>
-                <p >Z tej okazji chiałbym zabrać Cię w podróż. Każdego dnia jedna kartka z kalendarza będzie się aktywować. Każda z nich to jakieś unikalne wspomnienie, wyzwanie, prezent albo gra. Jeżeli uda Ci się ukończyć wszystkie z nich, czeka Cię -tytyrytyty- Nagroda Główna!</p>
-                <p > Mam nadzieję że te podróż sprawi Ci radość, tak jak inne nasze podróże. Wszystkiego najlepszego po raz pierwszy. Kocham Cię! </p>      
-                <div className="">
-            <h4 className="mt-5" style={{color: 'white'}}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych z nich. Czy pamiętasz je wszystkie?</h4>
-
-            </div>          
+                <p style={{ fontStyle: 'italic' }}>Mówić można z każdym – rozmawiać bardzo mało z kim</p>
+                <p style={{ fontStyle: 'italic' }}>Feliks Chwalibóg</p>
+                <p className="mt-5" style={{ color: 'white' }}>Rozmawiamy ze sobą już od wielu lat. Wymianiamy myśli i zdjęcia, chwile dobre, trudne, głupie. Czasem milczymy. Zmieniamy się i zmienia się też sposób w jaki za sobą rozmawiamy.</p>
+                <p style={{ color: 'white' }}>Przygotowałem dla Ciebie mały quiz z naszego rozmawiania. Jesteś w stanie zgadnąć, który to rok?</p>
+                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers !== 13 && <h2 style={{ color: 'orange' }}> Spróbuj raz jeszcze</h2>}
+                {quizResult && quizResult.numberOfCorrectAnswers && quizResult.numberOfCorrectAnswers === 13 && <h2 style={{ color: 'orange' }}> Piękny wynik! Twoja szósta litera to "X"</h2>}
+                
             </div>
-
+            <div className = "quizz" style={{background: '#007ea7'}}>
+            <Quiz
+                quiz={quiz6}
+                shuffle
+                shuffleAnswer
+                showInstantFeedback
+                continueTillCorrect
+                onComplete={setQuizResult}
+                onQuestionSubmit={(obj) => console.log('user question results:', obj)}
+                disableSynopsis = {false}
+                allowPauseTimer
+                enableProgressBar
+                
+            />
+            </div>
 
         </div>
     );
 }
-
 export default Day6;

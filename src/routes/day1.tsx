@@ -26,7 +26,7 @@ function Day1() {
             </h1>
             <div className="m-5 pb-30">
                 <div className="m-50">
-                    <h4 className="mt-10 pb-30" style={{ color: 'white' }}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych z nich. Pamiętasz je wszystkie?</h4>
+                    <h4 className="mt-10 pb-30" style={{ color: 'white' }}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych kroków. Pamiętasz je wszystkie?</h4>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
                     <img style={{width:'70%'}} src={auto} className="mt-5"/> 
                     <p>Pamiętasz Żabcie, nasze pierwsze autko? Robiło nam czasem psikusy, ale było super. </p>
