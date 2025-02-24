@@ -8,7 +8,7 @@ function Day7() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                Dzien 7 - rozmowa.
+                Dzien 7 - Rozmowa.
             </h1>
             <div className="m-5 pb-15">
                 <p style={{ fontStyle: 'italic' }}>Mówić można z każdym – rozmawiać bardzo mało z kim</p>

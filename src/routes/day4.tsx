@@ -7,7 +7,7 @@ function Day4() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 4 - puzzle</p>
+                <p>Dzien 4 - Puzzle</p>
             </h1>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>Dobra mistrzu puzli, przygotuj się na wyzwanie!</h1>
 
