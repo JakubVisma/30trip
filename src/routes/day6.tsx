@@ -36,7 +36,7 @@ function Day6() {
                     <p>Tyle razem przeszliśmy 🚶‍♀️🚶‍♂️</p>
                     </div>
                     <h5 className="mt-5" style={{ color: 'white' }}> To strasznie dużo różnych liczb. Może już wystarczy na dziś. Dzisiejsza literka to "M" </h5>
-                    <h5 style={{ color: 'grey' }}>Buziaczki :*</h5>
+                    <h5 style={{ color: 'grey' }}>Buziaczki:*</h5>
                 </div>
             </div>
         </div>
