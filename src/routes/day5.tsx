@@ -4,7 +4,12 @@ import Quiz from '../lib/Quiz'
 
 function Day5() {
     const [quizResult, setQuizResult] = useState();
-
+    const date = new Date().getDate();
+    if(date<5){
+        return(
+            <h1 style={{ color: 'red' }}>Proszę nie kombinować!</h1>
+        );
+    }
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>

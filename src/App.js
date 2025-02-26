@@ -34,6 +34,7 @@ import Day14 from "./routes/day14.tsx";
 function App() {
   const location = useLocation();
   const { hash, pathname, search } = location;
+  const date = new Date().getDate();
   return (
     <div id="app" style={({ height: "100"}, { display: "flex" })}>
 
@@ -42,24 +43,24 @@ function App() {
         <Menu>
           <MenuItem
             style={{ textAlign: "center" }}
-          ><Link to="/"><h2>Kalendarz</h2></Link>
+          ><Link to="/"><h2>Kalendarz {}</h2></Link>
             
           </MenuItem>
 
-          <Link to="/day1"><MenuItem ><Button variant="text" startIcon={<PlayCircleOutlineIcon /> }>Dzień 1</Button></MenuItem></Link>
-          <Link to="/day2"><MenuItem ><Button variant="text" startIcon={<AccessibilityNewIcon /> }>Dzień 2</Button></MenuItem></Link>
-          <Link to="/day3"><MenuItem ><Button variant="text" startIcon={<Grid4x4Icon /> }>Dzień 3</Button></MenuItem></Link>
-          <Link to="/day4"><MenuItem ><Button variant="text" startIcon={<ExtensionIcon /> }>Dzień 4</Button></MenuItem></Link>
-          <Link to="/day5"><MenuItem ><Button variant="text" startIcon={<VolunteerActivismIcon /> }>Dzień 5</Button></MenuItem></Link>
-          <Link to="/day6"><MenuItem ><Button variant="text" startIcon={<AccessTimeIcon /> }>Dzień 6</Button></MenuItem></Link>
-          <Link to="/day7"><MenuItem ><Button variant="text" startIcon={<ForumIcon /> }>Dzień 7</Button></MenuItem></Link>
-          <Link to="/day8"><MenuItem ><Button variant="text" startIcon={<FemaleIcon /> }>Dzień 8</Button></MenuItem></Link>
-          <Link to="/day9"><MenuItem ><Button variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 9</Button></MenuItem></Link>
-          <Link to="/day10"><MenuItem ><Button variant="text" startIcon={<ParkIcon /> }>Dzień 10</Button></MenuItem></Link>
-          <Link to="/day11"><MenuItem ><Button variant="text" startIcon={<DrawIcon /> }>Dzień 11</Button></MenuItem></Link>
-          <Link to="/day12"><MenuItem ><Button variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 12</Button></MenuItem></Link>
-          <Link to="/day13"><MenuItem ><Button variant="text" startIcon={<StarIcon /> }>Dzień 13</Button></MenuItem></Link>
-          <Link to="/day14"><MenuItem ><Button variant="text" startIcon={<CardGiftcardIcon /> }>Dzień 14</Button></MenuItem></Link>
+          <Link to={date<1 ? "" : "/day1"}><MenuItem ><Button disabled={date<1} variant="text" startIcon={<PlayCircleOutlineIcon /> }>Dzień 1</Button></MenuItem></Link>
+          <Link to={date<2 ? "" : "/day2"}><MenuItem ><Button disabled={date<2}variant="text" startIcon={<AccessibilityNewIcon /> }>Dzień 2</Button></MenuItem></Link>
+          <Link to={date<3 ? "" : "/day3"}><MenuItem ><Button disabled={date<3}variant="text" startIcon={<Grid4x4Icon /> }>Dzień 3</Button></MenuItem></Link>
+          <Link to={date<4 ? "" : "/day4"}><MenuItem ><Button disabled={date<4}variant="text" startIcon={<ExtensionIcon /> }>Dzień 4</Button></MenuItem></Link>
+          <Link to={date<5 ? "" : "/day5"}><MenuItem ><Button disabled={date<5}variant="text" startIcon={<VolunteerActivismIcon /> }>Dzień 5</Button></MenuItem></Link>
+          <Link to={date<6 ? "" : "/day6"}><MenuItem ><Button disabled={date<6}variant="text" startIcon={<AccessTimeIcon /> }>Dzień 6</Button></MenuItem></Link>
+          <Link to={date<7 ? "" : "/day7"}><MenuItem ><Button disabled={date<7}variant="text" startIcon={<ForumIcon /> }>Dzień 7</Button></MenuItem></Link>
+          <Link to={date<8 ? "" : "/day8"}><MenuItem ><Button disabled={date<8}variant="text" startIcon={<FemaleIcon /> }>Dzień 8</Button></MenuItem></Link>
+          <Link to={date<9 ? "" : "/day9"}><MenuItem ><Button disabled={date<9}variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 9</Button></MenuItem></Link>
+          <Link to={date<10 ? "" : "/day10"}><MenuItem ><Button disabled={date<10}variant="text" startIcon={<ParkIcon /> }>Dzień 10</Button></MenuItem></Link>
+          <Link to={date<11 ? "" : "/day11"}><MenuItem ><Button disabled={date<11}variant="text" startIcon={<DrawIcon /> }>Dzień 11</Button></MenuItem></Link>
+          <Link to={date<12 ? "" : "/day12"}><MenuItem ><Button disabled={date<12}variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 12</Button></MenuItem></Link>
+          <Link to={date<13 ? "" : "/day13"}><MenuItem ><Button disabled={date<13}variant="text" startIcon={<StarIcon /> }>Dzień 13</Button></MenuItem></Link>
+          <Link to={date<14 ? "" : "/day14"}><MenuItem ><Button disabled={date<14}variant="text" startIcon={<CardGiftcardIcon /> }>Dzień 14</Button></MenuItem></Link>
         </Menu>
       </Sidebar>
       <main className="w-100" >

@@ -4,6 +4,13 @@ import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 
 function Day4() {
     const [puzzleSolved, setPuzzleSolved] = useState(0);
+    const date = new Date().getDate();
+    if(date<4){
+        return(
+            <h1 style={{ color: 'red' }}>Proszę nie kombinować!</h1>
+        );
+    }
+
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
@@ -23,7 +30,7 @@ function Day4() {
 
             <div className="m-5">
                 {puzzleSolved === 0 &&
-                    <JigsawPuzzle  imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day4/1.jpg?raw=true"
+                    <JigsawPuzzle imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day4/1.jpg?raw=true"
                         onSolved={() => setPuzzleSolved(1)} />}
                 {puzzleSolved === 1 &&
                     <JigsawPuzzle columns={4} rows={4} imageSrc="https://github.com/JakubVisma/30trip/blob/master/src/routes/day4/2.jpg?raw=true"

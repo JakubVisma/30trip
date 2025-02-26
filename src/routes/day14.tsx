@@ -1,6 +1,13 @@
 import React from "react";
 
 function Day14() {
+    const date = new Date().getDate();
+    if(date<14){
+        return(
+            <h1 style={{ color: 'red' }}>Proszę nie kombinować!</h1>
+        );
+    }
+
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>

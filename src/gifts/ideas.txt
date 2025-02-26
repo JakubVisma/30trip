@@ -6,7 +6,7 @@
 ✔6:Szczęśliwi czasu nie liczą - a może liczą? - pasek do zegarka
 ✔7:Rozmowy na messengerze
 8:Dzień kobiet - kalendarz
-9:Krzyżówka?
+9:
 10:spacer po parku z qr codami - bluza
 ✔11:Wesołe jest życie UXa - Książka
 12:- tshirt

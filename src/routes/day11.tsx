@@ -4,6 +4,13 @@ import React, { useRef, useState } from "react";
 function Day11() {
     const [puzzleSolved, setPuzzleSolved] = useState('');
     const gridIframe = useRef(null);
+    const date = new Date().getDate();
+    if(date<11){
+        return(
+            <h1 style={{ color: 'red' }}>Proszę nie kombinować!</h1>
+        );
+    }
+
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
