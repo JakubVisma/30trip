@@ -1,8 +1,8 @@
 {
-  "name": "trip",
+  "name": "30trip",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JakubVisma.github.io/30trip",
+  "homepage": "https://JakubVisma.github.io/30trip",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r http://github.com/JakubVisma/30trip.git"
   },
   "eslintConfig": {
     "extends": [
