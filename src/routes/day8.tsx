@@ -4,7 +4,7 @@ function Day8() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 8</p>
+                <p>Dzien 8 - Z dala od siebie (i to w dzień kobiet!)</p>
             </h1>
             <div className="m-5 pb-15">
                 <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>

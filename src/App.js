@@ -1,11 +1,20 @@
 import { Sidebar, Menu, MenuItem, useProSidebar } from "react-pro-sidebar";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
-import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
-import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
-import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
+import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import ExtensionIcon from '@mui/icons-material/Extension';
+import Grid4x4Icon from '@mui/icons-material/Grid4x4';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import ForumIcon from '@mui/icons-material/Forum';
+import FemaleIcon from '@mui/icons-material/Female';
+import ParkIcon from '@mui/icons-material/Park';
+import DrawIcon from '@mui/icons-material/Draw';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import StarIcon from '@mui/icons-material/Star';
+import { Button } from "@mui/material";
+
 import { Link ,Routes, Route, useLocation } from "react-router-dom"
 import Day1 from "./routes/day1.tsx";
 import Day2 from "./routes/day2.tsx";
@@ -37,20 +46,20 @@ function App() {
             
           </MenuItem>
 
-          <Link to="/day1"><MenuItem icon={<HomeOutlinedIcon />}>Dzień 1</MenuItem></Link>
-          <Link to="/day2"><MenuItem icon={<PeopleOutlinedIcon />}>Dzień 2</MenuItem></Link>
-          <Link to="/day3"><MenuItem icon={<ContactsOutlinedIcon />}>Dzień 3</MenuItem></Link>
-          <Link to="/day4"><MenuItem icon={<ReceiptOutlinedIcon />}>Dzień 4</MenuItem></Link>
-          <Link to="/day5"><MenuItem icon={<HelpOutlineOutlinedIcon />}>Dzień 5</MenuItem></Link>
-          <Link to="/day6"><MenuItem icon={<CalendarTodayOutlinedIcon />}>Dzień 6</MenuItem></Link>
-          <Link to="/day7"><MenuItem icon={<ContactsOutlinedIcon />}>Dzień 7</MenuItem></Link>
-          <Link to="/day8"><MenuItem icon={<ReceiptOutlinedIcon />}>Dzień 8</MenuItem></Link>
-          <Link to="/day9"><MenuItem icon={<HelpOutlineOutlinedIcon />}>Dzień 9</MenuItem></Link>
-          <Link to="/day10"><MenuItem icon={<CalendarTodayOutlinedIcon />}>Dzień 10</MenuItem></Link>
-          <Link to="/day11"><MenuItem icon={<ContactsOutlinedIcon />}>Dzień 11</MenuItem></Link>
-          <Link to="/day12"><MenuItem icon={<ReceiptOutlinedIcon />}>Dzień 12</MenuItem></Link>
-          <Link to="/day13"><MenuItem icon={<HelpOutlineOutlinedIcon />}>Dzień 13</MenuItem></Link>
-          <Link to="/day14"><MenuItem icon={<CalendarTodayOutlinedIcon />}>Dzień 14</MenuItem></Link>
+          <Link to="/day1"><MenuItem ><Button variant="text" startIcon={<PlayCircleOutlineIcon /> }>Dzień 1</Button></MenuItem></Link>
+          <Link to="/day2"><MenuItem ><Button variant="text" startIcon={<AccessibilityNewIcon /> }>Dzień 2</Button></MenuItem></Link>
+          <Link to="/day3"><MenuItem ><Button variant="text" startIcon={<Grid4x4Icon /> }>Dzień 3</Button></MenuItem></Link>
+          <Link to="/day4"><MenuItem ><Button variant="text" startIcon={<ExtensionIcon /> }>Dzień 4</Button></MenuItem></Link>
+          <Link to="/day5"><MenuItem ><Button variant="text" startIcon={<VolunteerActivismIcon /> }>Dzień 5</Button></MenuItem></Link>
+          <Link to="/day6"><MenuItem ><Button variant="text" startIcon={<AccessTimeIcon /> }>Dzień 6</Button></MenuItem></Link>
+          <Link to="/day7"><MenuItem ><Button variant="text" startIcon={<ForumIcon /> }>Dzień 7</Button></MenuItem></Link>
+          <Link to="/day8"><MenuItem ><Button variant="text" startIcon={<FemaleIcon /> }>Dzień 8</Button></MenuItem></Link>
+          <Link to="/day9"><MenuItem ><Button variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 9</Button></MenuItem></Link>
+          <Link to="/day10"><MenuItem ><Button variant="text" startIcon={<ParkIcon /> }>Dzień 10</Button></MenuItem></Link>
+          <Link to="/day11"><MenuItem ><Button variant="text" startIcon={<DrawIcon /> }>Dzień 11</Button></MenuItem></Link>
+          <Link to="/day12"><MenuItem ><Button variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 12</Button></MenuItem></Link>
+          <Link to="/day13"><MenuItem ><Button variant="text" startIcon={<StarIcon /> }>Dzień 13</Button></MenuItem></Link>
+          <Link to="/day14"><MenuItem ><Button variant="text" startIcon={<CardGiftcardIcon /> }>Dzień 14</Button></MenuItem></Link>
         </Menu>
       </Sidebar>
       <main className="w-100" >
