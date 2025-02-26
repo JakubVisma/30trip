@@ -26,20 +26,7 @@ function NewGameControls({ sudokuStateManager }: NewGameControlsProps) {
 
   return (
     <>
-      <Button onClick={() => setNewGame(difficulty)}>New Game</Button>
-      <Difficulties>
-        {Object.values(Difficulty).map((d) => (
-          <Button
-            active={d === difficulty}
-            key={d}
-            onClick={() => setNewGame(d)}
-          >
-            {d}
-          </Button>
-        ))}
-      </Difficulties>
-
-      {hasWon && <p>You have successfully completed the sudoku puzzle!</p>}
+      {hasWon && <p>Brawo, dzielna! Twoja dzisiejsza literka to "E"</p>}
     </>
   );
 }

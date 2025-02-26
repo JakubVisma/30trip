@@ -54,10 +54,10 @@ const UserInputs = ({ sudokuStateManager }: UserInputsProps) => {
         onClick={toggleInputMode}
         active={inputMode === InputMode.Notes}
       >
-        Notes {inputMode === InputMode.Notes ? "On" : "Off"}
+        Notatki {inputMode === InputMode.Notes ? "On" : "Off"}
       </UserInputButton>
       <UserInputButton disabled={hasWon} onClick={undoHistory}>
-        Undo
+        Cofnij
       </UserInputButton>
       <UserInputButton
         onClick={() => {
@@ -68,7 +68,7 @@ const UserInputs = ({ sudokuStateManager }: UserInputsProps) => {
           clearCellNotes();
         }}
       >
-        Erase
+        Usuń
       </UserInputButton>
     
     </Wrapper>

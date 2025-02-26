@@ -1,6 +1,6 @@
 ✔1:Pierwszy krok - wspomnienia z życia 
 ✔2:Guess the Emoji Story  -Słodyczki
-3: Sudoku
+✔3: Sudoku
 ✔4:Puzzle - puzle
 ✔5:Why I Love You quiz gdzie wszystkie odpowiedzi są poprawne
 6:Szczęśliwi czasu nie liczą - a może liczą? - pasek do zegarka
