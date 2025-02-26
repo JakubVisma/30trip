@@ -5,7 +5,7 @@
 ✔5:Why I Love You quiz gdzie wszystkie odpowiedzi są poprawne
 ✔6:Szczęśliwi czasu nie liczą - a może liczą? - pasek do zegarka
 ✔7:Rozmowy na messengerze
-8:Dzień kobiet - kalendarz
+✔8:Dzień kobiet - kalendarz
 9:
 10:spacer po parku z qr codami - bluza
 ✔11:Wesołe jest życie UXa - Książka

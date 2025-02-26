@@ -11,7 +11,7 @@ function Day10() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 10</p>
+                <p>Dzień 10</p>
             </h1>
             <div className="m-5 pb-15">
                 <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>

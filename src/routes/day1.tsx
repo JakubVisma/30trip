@@ -29,7 +29,7 @@ function Day1() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 1 - pierwszy krok</p>
+                <p>Dzień 1 - pierwszy krok</p>
             </h1>
             <div className="m-5 pb-30">
                 <div className="m-50">

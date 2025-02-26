@@ -11,14 +11,13 @@ function Day8() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 8 - Z dala od siebie (i to w dzień kobiet!)</p>
+                <p>Dzień 8 - Z dala od siebie (i to w dzień kobiet!)</p>
             </h1>
             <div className="m-5 pb-15">
-                <p >Cześć Misiaku! Witem Cię w tym pięknym miesiącu, kiedy skończysz 30 latek. O rany ale to zleciało!</p>
-                <p >Z tej okazji chiałbym zabrać Cię w podróż. Każdego dnia jedna kartka z kalendarza będzie się aktywować. Każda z nich to jakieś unikalne wspomnienie, wyzwanie, prezent albo gra. Jeżeli uda Ci się ukończyć wszystkie z nich, czeka Cię -tytyrytyty- Nagroda Główna!</p>
-                <p > Mam nadzieję że te podróż sprawi Ci radość, tak jak inne nasze podróże. Wszystkiego najlepszego po raz pierwszy. Kocham Cię! </p>      
+                <p >Czasem jesteśmy z dala od siebie. W sumie to prawie codziennie, bo chodzimy do pracy. No ale czasem na dłużej.</p>
+                <p >Na te trudne czasy rozłąki przygotowałem Ci prezent, tak bym zawsze mógł być koło Ciebie - i to w najseksowniejszym wydaniu. Nie było to najłatwiejsze zadanie, tak więc zwołałem najlepszych pomocników.</p>
+                <p > Możesz teraz otworzyć paczkę oznaczoną "V". To też Twoja literka na dzień 8. Wszystkiego najlepszego z okazji dnia kobiet! 😘</p>      
                 <div className="">
-            <h4 className="mt-5" style={{color: 'white'}}> Każda podróż zaczyna się od pierwszego kroku. My wykonaliśmy razem wiele pierwszych z nich. Czy pamiętasz je wszystkie?</h4>
 
             </div>          
             </div>

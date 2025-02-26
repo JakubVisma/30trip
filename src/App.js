@@ -40,12 +40,8 @@ function App() {
 
 
       <Sidebar   backgroundColor="#003459" style={({ height: "100vh", position:"sticky", top:0 })}  >
-        <Menu>
-          <MenuItem
-            style={{ textAlign: "center" }}
-          ><Link to="/"><h2>Kalendarz {}</h2></Link>
-            
-          </MenuItem>
+        <Menu style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+         <Link to="/"><Button size="large" variant="text" >Strona Główna</Button></Link>
 
           <Link to={date<1 ? "" : "/day1"}><MenuItem ><Button disabled={date<1} variant="text" startIcon={<PlayCircleOutlineIcon /> }>Dzień 1</Button></MenuItem></Link>
           <Link to={date<2 ? "" : "/day2"}><MenuItem ><Button disabled={date<2}variant="text" startIcon={<AccessibilityNewIcon /> }>Dzień 2</Button></MenuItem></Link>

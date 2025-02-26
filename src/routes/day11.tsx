@@ -14,7 +14,7 @@ function Day11() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                Dzien 11 - wesołe jest życie UX-a.
+            Dzień 11 - wesołe jest życie UX-a.
             </h1>
             <h4 className="mt-3" style={{ color: "white", marginLeft: "5rem" }}>
                 <p>Hejho. Mam nadzieję że jesteś silna, zwarta i gotowa. Dziś będziemy testować Twoje umiejętności UXowa - a jest co testować! Ready or not, zaczynamy!</p>

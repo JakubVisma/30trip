@@ -15,7 +15,7 @@ function Day2() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                Dzien 2 - Przygody.
+            Dzień 2 - Przygody.
             </h1>
             <div className="m-5 pb-15">
                 <p style={{ fontStyle: 'italic' }}>If it scares you, it might be a good thing to try.</p>

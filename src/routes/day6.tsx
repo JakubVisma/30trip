@@ -13,7 +13,7 @@ function Day6() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-                <p>Dzien 6 - Szczęśliwi czasu nie liczą. A może?</p>
+                <p>Dzień 6 - Szczęśliwi czasu nie liczą. A może?</p>
             </h1>
             <div className="m-5 pb-30">
                 <div className="m-50">

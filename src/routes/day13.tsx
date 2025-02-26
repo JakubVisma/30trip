@@ -11,7 +11,7 @@ function Day13() {
     return (
         <div>
             <h1 style={{ color: "white", marginLeft: "5rem" }}>
-            <p>Dzien 13 - Życzenia</p>
+            <p>Dzień 13 - Życzenia</p>
             </h1>
             <div className="m-5 pb-15">
                 <p >Dzień dobry! Już coraz bliżej urodzin. Rany julek, to już jutro!</p>
