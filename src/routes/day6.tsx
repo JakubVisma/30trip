@@ -38,11 +38,11 @@ function Day6() {
                     <h4 className="mt-5" style={{ color: 'white' }}>13 milionów kalorii.  </h4>
                     <p>Zgrubnie szacując, tyle zjedliśmy odkąd jesteśmy razem. 🥑 To tyle energii co w 1300l paliwa. Albo ile zużywa Boeing 747 na 7 minut lotu </p>
                     <h4 className="mt-5" style={{ color: 'white' }}>330 million uderzeń .  </h4>
-                    <p>Tyle razy nasze serca biją w jednym rytmie 💕</p>
+                    <p>Tyle razy nasze serca biły w jednym rytmie 💕</p>
                     <h4 className="mt-5" style={{ color: 'white' }}>~30.000km .  </h4>
-                    <p>Tyle razem przeszliśmy 🚶‍♀️🚶‍♂️</p>
+                    <p>Tyle razem przeszliśmy. Około. 🚶‍♀️🚶‍♂️</p>
                     </div>
-                    <h5 className="mt-5" style={{ color: 'white' }}> To strasznie dużo różnych liczb. Może już wystarczy na dziś. Dzisiejsza literka to "M" </h5>
+                    <h5 className="mt-5" style={{ color: 'white' }}> To strasznie dużo różnych liczb. Może już wystarczy na dziś. Dzisiejsza literka to "M". Nie żeby coś, ale możnaby ją sprawdzić z panem mężem, a nóż coś się wydarzy.</h5>
                     <h5 style={{ color: 'grey' }}>Buziaczki:*</h5>
                 </div>
             </div>

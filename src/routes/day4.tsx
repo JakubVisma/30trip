@@ -25,7 +25,7 @@ function Day4() {
                 (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Już prawie!</h1>)
             }
             {puzzleSolved === 3 &&
-                (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Twoja czwarta litera hasła to "O"!</h1>)
+                (<h1 style={{ color: "orange", marginLeft: "5rem" }}>Twoja czwarta litera hasła to "O"! Na pewno da się ją wymienić na coś fajnego 🤸‍♀️🤸‍♀️</h1>)
             }
 
             <div className="m-5">
