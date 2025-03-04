@@ -51,7 +51,7 @@ function App() {
           <Link to={date<6 ? "" : "/day6"}><MenuItem ><Button disabled={date<6}variant="text" startIcon={<AccessTimeIcon /> }>Dzień 6</Button></MenuItem></Link>
           <Link to={date<7 ? "" : "/day7"}><MenuItem ><Button disabled={date<7}variant="text" startIcon={<ForumIcon /> }>Dzień 7</Button></MenuItem></Link>
           <Link to={date<8 ? "" : "/day8"}><MenuItem ><Button disabled={date<8}variant="text" startIcon={<FemaleIcon /> }>Dzień 8</Button></MenuItem></Link>
-          <Link to={date<9 ? "" : "/day9"}><MenuItem ><Button disabled={date<9}variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 9</Button></MenuItem></Link>
+          <Link to={date<9 ? "" : "/day9"}><MenuItem ><Button disabled={date<9}variant="text" startIcon={<Grid4x4Icon /> }>Dzień 9</Button></MenuItem></Link>
           <Link to={date<10 ? "" : "/day10"}><MenuItem ><Button disabled={date<10}variant="text" startIcon={<ParkIcon /> }>Dzień 10</Button></MenuItem></Link>
           <Link to={date<11 ? "" : "/day11"}><MenuItem ><Button disabled={date<11}variant="text" startIcon={<DrawIcon /> }>Dzień 11</Button></MenuItem></Link>
           <Link to={date<12 ? "" : "/day12"}><MenuItem ><Button disabled={date<12}variant="text" startIcon={<HomeOutlinedIcon /> }>Dzień 12</Button></MenuItem></Link>
