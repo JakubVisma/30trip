@@ -40,6 +40,7 @@ function checkPassword(){
                         <>
                             < video src={finale} width="600" height="300" controls="controls" />
                             <p style={{ color: `rgb(212, 142, 12)`}}>Wygląda na to że mamy problem. Nawiązuję połączenie z konsultantem.</p>
+                            <h5 className="mt-5" style={{ color: 'white' }}> Twój prezent główny to bilet na koncert mumfordów. Gratulacje! </h5>
                             <h5 className="mt-5" style={{ color: 'white' }}> To by było na tyle. Mam nadzieję że dobrze się bawiłaś przez ostatnie 14 dni, a dzień dzisiejszy będzie wisienką na torcie. Buziaki :* </h5>
                             <h5 style={{ color: 'grey' }}>Twój Mąż ❤️</h5>
                         </>}
